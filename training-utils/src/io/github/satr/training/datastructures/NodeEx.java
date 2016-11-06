@@ -1,21 +1,21 @@
 package io.github.satr.training.datastructures;
 
-public class NodeEx {
+public class NodeEx<T> {
     public NodeEx() {
     }
 
-    public NodeEx(int data) {
+    public NodeEx(T data) {
         setData(data);
     }
 
-    private int data;
+    private T data;
     private NodeEx next;
 
-    public int getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(int data) {
+    public void setData(T data) {
         this.data = data;
     }
 

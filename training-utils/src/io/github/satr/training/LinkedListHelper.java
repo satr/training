@@ -32,7 +32,7 @@ public class LinkedListHelper {
         }
         NodeEx node = linkedList.getFirst();
         while(node != null) {
-            System.out.printf("(%d)", node.getData());
+            System.out.printf("(%s)", node.getData());
             node = node.getNext();
         }
         System.out.println();
