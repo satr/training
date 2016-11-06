@@ -58,19 +58,21 @@ public class ArrayHelper {
 
 
     public static void showArray(int[] array) {
-        if(array.length <= 15) {
-            showArray(array, 0, array.length - 1);
-            return;
+        int i = 0;
+        for (; i < array.length && i < 4; i++)
+            showArrayValue(array, i);
+
+        if(array.length > 8) {
+            System.out.println("...");
+            i = array.length - 4;
         }
-        showArray(array, 0, 5);
-        System.out.println("...");
-        showArray(array, array.length - 6, array.length - 1);
+
+        for (; i < array.length; i++)
+            showArrayValue(array, i);
     }
 
-    private static void showArray(int[] array, int lowIndex, int highIndex) {
-        for (int i = lowIndex; i <= highIndex; i++) {
-            System.out.printf("%10d:%20d\n", i, array[i]);
-        }
+    private static void showArrayValue(int[] array, int index) {
+        System.out.printf("%10d:%20d\n", index, array[index]);
     }
 
     public static void reverse(int[] array) {

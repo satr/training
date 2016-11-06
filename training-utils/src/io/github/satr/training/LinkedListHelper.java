@@ -37,6 +37,4 @@ public class LinkedListHelper {
         }
         System.out.println();
     }
-
-
 }

@@ -5,7 +5,7 @@ import io.github.satr.training.datastructures.GraphNodeEx;
 
 public class GraphHelper {
     /*
-    * ,/ is a directed link down, if the graph is directed
+    * ,/ is a directed link from up to down, if the graph is directed
     *
     *                n1
     *             ,/   \,
@@ -45,15 +45,5 @@ public class GraphHelper {
             node1.linkTo(node2);
         else
             node1.link(node2);
-    }
-
-    public static <T extends Comparable<? super T>> GraphNodeEx<T> searchNodeWithMinData(GraphEx<GraphNodeEx<T>> graph)  {
-        GraphNodeEx<T> minNode = null;
-
-        for(GraphNodeEx<T> node: graph) {
-            if(minNode == null || minNode.getData().compareTo(node.getData()) > 0)
-                minNode = node;
-        }
-        return minNode;
     }
 }

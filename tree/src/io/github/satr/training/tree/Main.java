@@ -1,18 +1,16 @@
 package io.github.satr.training.tree;
 
-import io.github.satr.training.TreeHelper;
+import io.github.satr.training.problems.TreeProblems;
 
 public class Main {
 
     public static void main(String[] args) {
-//        System.out.println("Test DSW Tree Balancing");
-//        TreeHelper.testDSWTreeBalancing();//TODO - not completed work
+        TreeProblems.testDSWTreeBalancing();//TODO - not completed work
 
-//        System.out.println("Convert Sorted Array To Balanced BST");
-//        TreeHelper.convertSortedArrayToBalancedBST();
+        TreeProblems.convertSortedArrayToBalancedBST();
 
-        System.out.println("List of linked lists - one for each level of binary tree.");
-        TreeHelper.createLinkedListsForEachLevelOfBinaryTreeWithLevelByLevelTraversal();
-//        TreeHelper.createLinkedListsForEachLevelOfBinaryTreeWithPreOrderTraversal();
+        TreeProblems.createLinkedListsForEachLevelOfBinaryTreeWithBreadthFirstTraversal();
+
+        TreeProblems.createLinkedListsForEachLevelOfBinaryTreeWithPreOrderTraversal();
     }
 }

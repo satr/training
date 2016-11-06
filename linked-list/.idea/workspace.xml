@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da4cbadd-1605-44aa-ad0f-cb0f9811484f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/LinkedListProblems.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sorting/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sorting/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/satr/training/linkedlist/Main.java" afterPath="$PROJECT_DIR$/src/io/github/satr/training/linkedlist/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/LinkedListHelper.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/LinkedListHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/NodeEx.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/NodeEx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../tree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../tree/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../tree/src/io/github/satr/training/tree/Main.java" afterPath="$PROJECT_DIR$/../tree/src/io/github/satr/training/tree/Main.java" />
     </list>
@@ -37,8 +37,41 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/linkedlist/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+            <state relative-caret-position="119">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/LinkedListHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/GraphHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-476">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListProblems.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/LinkedListProblems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="171" column="28" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
+            <state relative-caret-position="425">
+              <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,9 +115,11 @@
         <option value="$PROJECT_DIR$/../training-utils/src/com/company/LinkedListHelper.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/linkedlist/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/io/github/satr/training/linkedlist/Main.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/NodeEx.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" />
+        <option value="$PROJECT_DIR$/src/io/github/satr/training/linkedlist/Main.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/LinkedListProblems.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/LinkedListHelper.java" />
       </list>
     </option>
   </component>
@@ -189,6 +224,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linked-list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="datastructures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -241,6 +298,7 @@
       <recent name="com.company.datastructures" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.satr.training.problems" />
       <recent name="com.company.datastructures" />
       <recent name="com.company" />
     </key>
@@ -680,12 +738,12 @@
       <workItem from="1478429453426" duration="52000" />
       <workItem from="1478430485477" duration="823000" />
       <workItem from="1478443823338" duration="80000" />
-      <workItem from="1478455594028" duration="1188000" />
+      <workItem from="1478455594028" duration="1428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5135000" />
+    <option name="totallyTimeSpent" value="5375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -707,7 +765,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997763" sideWeight="0.50190324" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32997763" sideWeight="0.4980968" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.4980968" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -755,7 +813,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -765,7 +824,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -775,7 +835,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,7 +846,8 @@
         <state relative-caret-position="408">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -797,7 +859,8 @@
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -810,7 +873,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -821,16 +885,6 @@
     <entry file="file://$PROJECT_DIR$/../training-utils/src/com/company/datastructures/NodeEx.java" />
     <entry file="file://$PROJECT_DIR$/../training-utils/src/com/company/LinkedListHelper.java" />
     <entry file="file://$PROJECT_DIR$/../training-utils/src/com/company/datastructures/LinkedListEx.java" />
-    <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/linkedlist/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/NodeEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -842,18 +896,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/LinkedListHelper.java">
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="425">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/LinkedListProblems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="171" column="28" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
+        <state relative-caret-position="425">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/linkedlist/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/LinkedListHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/GraphHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
