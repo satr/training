@@ -22,7 +22,5 @@ public class Main {
         System.out.println("--- Result:");
         ArrayHelper.showArray(array);
         ArrayHelper.checkOrder(array);
-//==search
-//        SearchAlgorithms.binarySearch(array, array[array.length / 2]);
     }
 }
