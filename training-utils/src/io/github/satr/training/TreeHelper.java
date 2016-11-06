@@ -1,6 +1,7 @@
 package io.github.satr.training;
 
 
+import io.github.satr.training.algorithms.SortAlgorithms;
 import io.github.satr.training.algorithms.TreeBalancingDayStoutWarren;
 import io.github.satr.training.datastructures.BTNodeEx;
 
@@ -138,5 +139,25 @@ public class TreeHelper {
         dswAlgorithm.createCompleteBST();
         System.out.println("-------- result ---------");
         showTree(dswAlgorithm.getRoot());
+    }
+
+    public static void convertSortedArrayToBalancedBST() {
+        int[] array = ArrayHelper.createArray(25, 30);
+        SortAlgorithms.mergeSort(array);
+        ArrayHelper.showArray(array);
+
+        BTNodeEx rootNode = convertSortedArrayToBalancedBST(array, 0, array.length - 1);
+
+        TreeHelper.showTree(rootNode);
+    }
+
+    private static BTNodeEx convertSortedArrayToBalancedBST(int[] array, int low, int high) {
+        if(low > high)
+            return null;
+        int medium = (low + high) / 2;
+        BTNodeEx node = new BTNodeEx(array[medium]);
+        node.setLeft(convertSortedArrayToBalancedBST(array, low, medium - 1));
+        node.setRight(convertSortedArrayToBalancedBST(array, medium + 1, high));
+        return node;
     }
 }
