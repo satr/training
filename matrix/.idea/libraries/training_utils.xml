@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="training-utils">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../training-utils" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../training-utils/src" />
+    </SOURCES>
+  </library>
+</component>
