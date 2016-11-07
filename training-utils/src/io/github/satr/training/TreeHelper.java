@@ -126,4 +126,103 @@ public class TreeHelper {
         populateChildNodes(left, levels - 1, range);
         populateChildNodes(right, levels - 1, range);
     }
+
+    /*
+    *        5
+    *     1    4
+    *    2 3
+    * */
+    public static BTNodeEx createNotBSTTree1() {
+        BTNodeEx n1 = new BTNodeEx(1);
+        BTNodeEx n2 = new BTNodeEx(2);
+        BTNodeEx n3 = new BTNodeEx(3);
+        BTNodeEx n4 = new BTNodeEx(4);
+        BTNodeEx n5 = new BTNodeEx(5);
+        n5.setLeft(n1);
+        n5.setRight(n4);
+        n1.setLeft(n2);
+        n1.setRight(n3);
+        return n5;
+    }
+
+    /*
+    *        4
+    *     2    5
+    *    1 10
+    * */
+    public static BTNodeEx createNotBSTTree2() {
+        BTNodeEx n1 = new BTNodeEx(1);
+        BTNodeEx n2 = new BTNodeEx(2);
+        BTNodeEx n10 = new BTNodeEx(10);
+        BTNodeEx n4 = new BTNodeEx(4);
+        BTNodeEx n5 = new BTNodeEx(5);
+        n4.setLeft(n2);
+        n4.setRight(n5);
+        n2.setLeft(n1);
+        n2.setRight(n10);
+        return n4;
+    }
+
+    /*
+    *        6
+    *     3    7
+    *   1  4
+    *     2 5
+    * */
+    public static BTNodeEx createBSTTree() {
+        BTNodeEx n1 = new BTNodeEx(1);
+        BTNodeEx n2 = new BTNodeEx(2);
+        BTNodeEx n3 = new BTNodeEx(3);
+        BTNodeEx n4 = new BTNodeEx(4);
+        BTNodeEx n5 = new BTNodeEx(5);
+        BTNodeEx n6 = new BTNodeEx(6);
+        BTNodeEx n7 = new BTNodeEx(7);
+        n6.setLeft(n3);
+        n6.setRight(n7);
+        n3.setLeft(n1);
+        n3.setRight(n4);
+        n4.setLeft(n2);
+        n4.setRight(n5);
+        return n6;
+    }
+
+    /*
+    *         5
+    *       4
+    *     3
+    *   2
+    * 1
+    * */
+    public static BTNodeEx createLinkedListAsBSTTree() {
+        BTNodeEx n1 = new BTNodeEx(1);
+        BTNodeEx n2 = new BTNodeEx(2);
+        BTNodeEx n3 = new BTNodeEx(3);
+        BTNodeEx n4 = new BTNodeEx(4);
+        BTNodeEx n5 = new BTNodeEx(5);
+        n5.setLeft(n4);
+        n4.setLeft(n3);
+        n3.setLeft(n2);
+        n2.setLeft(n1);
+        return n5;
+    }
+
+    /*
+    * 5
+    *   4
+    *     3
+    *       2
+    *         1
+    * */
+    public static BTNodeEx createLinkedListAsNotBSTTree() {
+        BTNodeEx n1 = new BTNodeEx(1);
+        BTNodeEx n2 = new BTNodeEx(2);
+        BTNodeEx n3 = new BTNodeEx(3);
+        BTNodeEx n4 = new BTNodeEx(4);
+        BTNodeEx n5 = new BTNodeEx(5);
+        n5.setRight(n4);
+        n4.setRight(n3);
+        n3.setRight(n2);
+        n2.setRight(n1);
+        return n5;
+    }
 }

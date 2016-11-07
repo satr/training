@@ -122,4 +122,35 @@ public class TreeProblems {
         System.out.println("-------- result ---------");
         TreeHelper.showTree(dswAlgorithm.getRoot());
     }
+
+    public static void checkIfTreeIsBST() {
+        System.out.println("\nCheck if tree is BST.\n");
+
+        checkIfTreeIsBST(TreeHelper.createNotBSTTree1());
+        checkIfTreeIsBST(TreeHelper.createNotBSTTree2());
+        checkIfTreeIsBST(TreeHelper.createBSTTree());//TODO: find out why - should be BST but not recognized as such
+        checkIfTreeIsBST(TreeHelper.createLinkedListAsBSTTree());
+        checkIfTreeIsBST(TreeHelper.createLinkedListAsNotBSTTree());
+    }
+
+    private static void checkIfTreeIsBST(BTNodeEx rootNode) {
+        TreeHelper.showTree(rootNode);
+
+        boolean isBST = treeIsBST(rootNode, null, null);
+
+        System.out.println(isBST ? "Is BST" : "Is not BST");
+    }
+
+    // -- borrowed code: not sure if works correct
+    private static boolean treeIsBST(BTNodeEx node, Integer min, Integer max) {
+        if (node == null)
+            return true;
+        if ((min != null && node.getValue() <= min)
+                || (max != null && node.getValue() > max))
+            return false;
+        if(!treeIsBST(node.getLeft(), min, node.getValue())
+                || !treeIsBST(node.getRight(), node.getValue(), max))
+            return false;
+        return true;
+    }
 }
