@@ -5,6 +5,7 @@ public class BTNodeEx {
     private int leftNodeIndex = 0;
     private int rightNodeIndex = 1;
     private int value;
+    private BTNodeEx parent;
 
     public BTNodeEx(int value) {
 
@@ -17,10 +18,14 @@ public class BTNodeEx {
 
     public void setLeft(BTNodeEx node) {
         nodes[leftNodeIndex] = node;
+        if(node != null)
+            node.setParent(this);
     }
 
     public void setRight(BTNodeEx node) {
         nodes[rightNodeIndex] = node;
+        if(node != null)
+            node.setParent(this);
     }
 
     public BTNodeEx getLeft() {
@@ -36,5 +41,29 @@ public class BTNodeEx {
         return "BTNodeEx{" +
                 "value=" + value +
                 '}';
+    }
+
+    public String toText() {
+        return String.format("(%s/%s\\%s)", getLeft() != null? getLeft().getValue(): "n", getValue(), getRight() != null? getRight().getValue(): "n");
+    }
+
+    public void setParent(BTNodeEx parent) {
+        this.parent = parent;
+    }
+
+    public BTNodeEx getParent() {
+        return parent;
+    }
+
+    public boolean leftIsEmpty() {
+        return getLeft() == null;
+    }
+
+    public boolean rightIsEmpty() {
+        return getRight() == null;
+    }
+
+    public boolean leftIsLeaf() {
+        return leftIsEmpty() && rightIsEmpty();
     }
 }

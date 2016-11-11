@@ -153,4 +153,61 @@ public class TreeProblems {
             return false;
         return true;
     }
+
+    public static void delete(BTNodeEx node) {
+        if(node.leftIsLeaf())
+            deleteLeaf(node);
+        else if(node.rightIsEmpty() && !node.leftIsEmpty() )
+            deleteNodeWithRightOnly(node);
+        else if (!node.rightIsEmpty() && node.leftIsEmpty())
+            deleteNodeWithLeftOnly(node);
+        else
+            deleteNodeWithLeftAndRight(node);
+        node.setParent(null);
+    }
+
+    private static void deleteNodeWithLeftAndRight(BTNodeEx node) {
+        BTNodeEx parent = node.getParent();
+        BTNodeEx left = node.getLeft();
+        BTNodeEx right = node.getRight();
+        right.setParent(parent);
+        if (parent != null) {
+            if(parent.getLeft() == node)
+                parent.setLeft(right);
+            else
+                parent.setRight(right);
+        }
+        right.setLeft(left);
+        left.setParent(right);
+        node.setRight(null);
+        node.setLeft(null);
+    }
+
+    private static void deleteNodeWithLeftOnly(BTNodeEx node) {
+        node.getRight().setParent(node.getParent());
+        node.setRight(null);
+    }
+
+    private static void deleteNodeWithRightOnly(BTNodeEx node) {
+        node.getLeft().setParent(node.getParent());
+        node.setLeft(null);
+    }
+
+    private static void deleteLeaf(BTNodeEx node) {
+        BTNodeEx parent = node.getParent();
+        if(parent == null)
+            return;//the leaf is the only node in the tree
+        if(parent.getRight() == node) {
+            parent.setRight(null);
+        } else if(parent.getLeft() == node) {
+            parent.setLeft(null);
+        } else {
+            reportInvalidRelationship(node, parent);
+            return;
+        }
+    }
+
+    private static void reportInvalidRelationship(BTNodeEx node, BTNodeEx parent) {
+        System.err.format("Node %s has parent %s but it is not its left or right assessor.", node, parent);
+    }
 }

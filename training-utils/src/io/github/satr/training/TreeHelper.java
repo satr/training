@@ -225,4 +225,18 @@ public class TreeHelper {
         n2.setRight(n1);
         return n5;
     }
+
+    public static String toTextInOrderTraversal(BTNodeEx node) {
+        StringBuilder sb = new StringBuilder();
+        addAsText(sb, node);
+        return sb.toString();
+    }
+
+    private static void addAsText(StringBuilder sb, BTNodeEx node) {
+        if(node == null)
+            return;
+        addAsText(sb, node.getLeft());
+        sb.append(node.toText());
+        addAsText(sb, node.getRight());
+    }
 }
