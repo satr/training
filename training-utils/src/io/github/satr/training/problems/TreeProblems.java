@@ -142,14 +142,14 @@ public class TreeProblems {
     }
 
     // -- borrowed code: not sure if works correct
-    private static boolean treeIsBST(BTNodeEx node, Integer min, Integer max) {
+    private static boolean treeIsBST(BTNodeEx<Integer> node, Integer min, Integer max) {
         if (node == null)
             return true;
-        if ((min != null && node.getValue() <= min)
-                || (max != null && node.getValue() > max))
+        if ((min != null && node.getKey() <= min)
+                || (max != null && node.getKey() > max))
             return false;
-        if(!treeIsBST(node.getLeft(), min, node.getValue())
-                || !treeIsBST(node.getRight(), node.getValue(), max))
+        if(!treeIsBST(node.getLeft(), min, node.getKey())
+                || !treeIsBST(node.getRight(), node.getKey(), max))
             return false;
         return true;
     }

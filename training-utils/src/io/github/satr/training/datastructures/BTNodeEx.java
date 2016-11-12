@@ -1,19 +1,20 @@
 package io.github.satr.training.datastructures;
 
-public class BTNodeEx {
+public class BTNodeEx<TKey> {
     BTNodeEx[] nodes = new BTNodeEx[2];
     private int leftNodeIndex = 0;
     private int rightNodeIndex = 1;
-    private int value;
+    private TKey key;
     private BTNodeEx parent;
+    private Object data;
 
-    public BTNodeEx(int value) {
+    public BTNodeEx(TKey key) {
 
-        this.value = value;
+        this.key = key;
     }
 
-    public int getValue() {
-        return value;
+    public TKey getKey() {
+        return key;
     }
 
     public void setLeft(BTNodeEx node) {
@@ -28,23 +29,21 @@ public class BTNodeEx {
             node.setParent(this);
     }
 
-    public BTNodeEx getLeft() {
+    public BTNodeEx<TKey> getLeft() {
         return nodes[leftNodeIndex];
     }
 
-    public BTNodeEx getRight() {
+    public BTNodeEx<TKey> getRight() {
         return nodes[rightNodeIndex];
     }
 
     @Override
     public String toString() {
-        return "BTNodeEx{" +
-                "value=" + value +
-                '}';
+        return String.format("BTNodeEx{key=%s,data=%s}", key, data);
     }
 
     public String toText() {
-        return String.format("(%s/%s\\%s)", getLeft() != null? getLeft().getValue(): "n", getValue(), getRight() != null? getRight().getValue(): "n");
+        return String.format("(%s/%s\\%s)", getLeft() != null? getLeft().getKey(): "n", getKey(), getRight() != null? getRight().getKey(): "n");
     }
 
     public void setParent(BTNodeEx parent) {
@@ -65,5 +64,13 @@ public class BTNodeEx {
 
     public boolean leftIsLeaf() {
         return leftIsEmpty() && rightIsEmpty();
+    }
+
+    public void setData(Object data) {
+        this.data = data;
+    }
+
+    public Object getData() {
+        return data;
     }
 }

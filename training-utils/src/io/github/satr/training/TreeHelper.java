@@ -59,7 +59,7 @@ public class TreeHelper {
                 System.out.print("     ");
         for (BTNodeEx node: nodeList) {
             if(node != null)
-                System.out.printf("(%3d)", node.getValue());
+                System.out.printf("(%3d)", node.getKey());
             else
                 System.out.printf("     ");
             for (int i = 0; i < Math.pow(2, levels) - 1; i++) {
