@@ -128,7 +128,7 @@ public class TreeProblems {
 
         checkIfTreeIsBST(TreeHelper.createNotBSTTree1());
         checkIfTreeIsBST(TreeHelper.createNotBSTTree2());
-        checkIfTreeIsBST(TreeHelper.createBSTTree());//TODO: find out why - should be BST but not recognized as such
+        checkIfTreeIsBST(TreeHelper.createBSTTree());
         checkIfTreeIsBST(TreeHelper.createLinkedListAsBSTTree());
         checkIfTreeIsBST(TreeHelper.createLinkedListAsNotBSTTree());
     }
@@ -141,7 +141,7 @@ public class TreeProblems {
         System.out.println(isBST ? "Is BST" : "Is not BST");
     }
 
-    // -- borrowed code: not sure if works correct
+    // -- borrowed code
     private static boolean treeIsBST(BTNodeEx<Integer> node, Integer min, Integer max) {
         if (node == null)
             return true;

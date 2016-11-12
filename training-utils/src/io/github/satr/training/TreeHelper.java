@@ -166,9 +166,9 @@ public class TreeHelper {
 
     /*
     *        6
-    *     3    7
+    *     2    7
     *   1  4
-    *     2 5
+    *     3 5
     * */
     public static BTNodeEx createBSTTree() {
         BTNodeEx n1 = new BTNodeEx(1);
@@ -178,11 +178,11 @@ public class TreeHelper {
         BTNodeEx n5 = new BTNodeEx(5);
         BTNodeEx n6 = new BTNodeEx(6);
         BTNodeEx n7 = new BTNodeEx(7);
-        n6.setLeft(n3);
+        n6.setLeft(n2);
         n6.setRight(n7);
-        n3.setLeft(n1);
-        n3.setRight(n4);
-        n4.setLeft(n2);
+        n2.setLeft(n1);
+        n2.setRight(n4);
+        n4.setLeft(n3);
         n4.setRight(n5);
         return n6;
     }
