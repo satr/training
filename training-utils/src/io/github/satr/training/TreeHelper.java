@@ -13,6 +13,7 @@ public class TreeHelper {
     private static List<Integer> list = new ArrayList<>();
 
     public static void showTree(BTNodeEx root) {
+        System.out.printf("Tree from the root %s\n", root);
         List<BTNodeEx[]> nodeLists = new ArrayList<>();
         nodeLists.add(new BTNodeEx[]{root});
         populateNodeLists(nodeLists);

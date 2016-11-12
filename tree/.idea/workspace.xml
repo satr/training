@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec1a3d9-a647-402d-91a5-5dba67b1c0de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/TreeTestBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tree.iml" afterPath="$PROJECT_DIR$/tree.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java" afterPath="$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java" />
     </list>
     <ignored path="tree-operations.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,31 +37,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3511#3512#0" expanded="true" />
-                <element signature="e#3574#3575#0" expanded="true" />
-                <element signature="e#3602#3603#0" expanded="true" />
-                <element signature="e#3665#3666#0" expanded="true" />
-                <element signature="e#3693#3694#0" expanded="true" />
-                <element signature="e#3756#3757#0" expanded="true" />
-                <element signature="e#3784#3785#0" expanded="true" />
-                <element signature="e#3847#3848#0" expanded="true" />
-                <element signature="e#3875#3876#0" expanded="true" />
-                <element signature="e#3938#3939#0" expanded="true" />
-                <element signature="e#3966#3967#0" expanded="true" />
-                <element signature="e#4029#4030#0" expanded="true" />
-                <element signature="e#4057#4058#0" expanded="true" />
-                <element signature="e#4120#4121#0" expanded="true" />
-                <element signature="e#4148#4149#0" expanded="true" />
-                <element signature="e#4211#4212#0" expanded="true" />
-                <element signature="e#4239#4240#0" expanded="true" />
-                <element signature="e#4302#4303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,7 +52,7 @@
       <file leaf-file-name="Formatter.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Formatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="46121">
               <caret line="2792" column="0" selection-start-line="2792" selection-start-column="0" selection-end-line="2792" selection-end-column="0" />
               <folding />
             </state>
@@ -82,7 +62,7 @@
       <file leaf-file-name="TreeProblems.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
+            <state relative-caret-position="2822">
               <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeHelper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TreeHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="238" column="33" selection-start-line="238" selection-start-column="33" selection-end-line="238" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -104,7 +84,7 @@
       <file leaf-file-name="BTNodeEx.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="765">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="e#1174#1175#0" expanded="true" />
@@ -130,7 +110,7 @@
       <file leaf-file-name="GraphProblems.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/GraphProblems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
+            <state relative-caret-position="68">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
@@ -191,9 +171,9 @@
         <option value="$PROJECT_DIR$/src/io/github/satr/training/tree/TreeTests.java" />
         <option value="$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java" />
-        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java" />
         <option value="$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" />
       </list>
     </option>
   </component>
@@ -204,9 +184,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="736" />
+    <option name="width" value="1886" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -233,8 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -367,6 +346,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -972,21 +953,22 @@
       <workItem from="1478448825366" duration="3885000" />
       <workItem from="1478455593544" duration="4890000" />
       <workItem from="1478465458151" duration="8941000" />
-      <workItem from="1478535593013" duration="9625000" />
+      <workItem from="1478535593013" duration="13360000" />
+      <workItem from="1478934084732" duration="181000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2016.11.11 at 08h 20m 49s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2016.11.11 at 08h 23m 21s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests - 2016.11.11 at 08h 28m 42s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Tests - 2016.11.11 at 08h 33m 16s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2016.11.12 at 08h 02m 22s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2016.11.12 at 08h 03m 51s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TreeTests_deleteCurrentWithSubTreeOnAnotherSideOfRootTest - 2016.11.11 at 08h 25m 15s.xml">
@@ -1009,10 +991,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29008000" />
+    <option name="totallyTimeSpent" value="32924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="736" extended-state="6" />
+    <frame x="1280" y="23" width="1886" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1022,12 +1004,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33229813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46212953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28272828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16100323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18132465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1084,6 +1066,70 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2822">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="238" column="33" selection-start-line="238" selection-start-column="33" selection-end-line="238" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/algorithms/SearchAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/GraphProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/LinkedListProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/SortingProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1098,24 +1144,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3511#3512#0" expanded="true" />
-            <element signature="e#3574#3575#0" expanded="true" />
-            <element signature="e#3602#3603#0" expanded="true" />
-            <element signature="e#3665#3666#0" expanded="true" />
-            <element signature="e#3693#3694#0" expanded="true" />
-            <element signature="e#3756#3757#0" expanded="true" />
-            <element signature="e#3784#3785#0" expanded="true" />
-            <element signature="e#3847#3848#0" expanded="true" />
-            <element signature="e#3875#3876#0" expanded="true" />
-            <element signature="e#3938#3939#0" expanded="true" />
-            <element signature="e#3966#3967#0" expanded="true" />
-            <element signature="e#4029#4030#0" expanded="true" />
-            <element signature="e#4057#4058#0" expanded="true" />
-            <element signature="e#4120#4121#0" expanded="true" />
-            <element signature="e#4148#4149#0" expanded="true" />
-            <element signature="e#4211#4212#0" expanded="true" />
-            <element signature="e#4239#4240#0" expanded="true" />
-            <element signature="e#4302#4303#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1325,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,7 +1404,7 @@
     <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblemsTest.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="46121">
           <caret line="2792" column="0" selection-start-line="2792" selection-start-column="0" selection-end-line="2792" selection-end-column="0" />
           <folding />
         </state>
@@ -1393,7 +1420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/GraphProblems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
+        <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
@@ -1423,17 +1450,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="238" column="33" selection-start-line="238" selection-start-column="33" selection-end-line="238" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="765">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="e#1174#1175#0" expanded="true" />
@@ -1447,7 +1466,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="2822">
           <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1457,29 +1476,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3511#3512#0" expanded="true" />
-            <element signature="e#3574#3575#0" expanded="true" />
-            <element signature="e#3602#3603#0" expanded="true" />
-            <element signature="e#3665#3666#0" expanded="true" />
-            <element signature="e#3693#3694#0" expanded="true" />
-            <element signature="e#3756#3757#0" expanded="true" />
-            <element signature="e#3784#3785#0" expanded="true" />
-            <element signature="e#3847#3848#0" expanded="true" />
-            <element signature="e#3875#3876#0" expanded="true" />
-            <element signature="e#3938#3939#0" expanded="true" />
-            <element signature="e#3966#3967#0" expanded="true" />
-            <element signature="e#4029#4030#0" expanded="true" />
-            <element signature="e#4057#4058#0" expanded="true" />
-            <element signature="e#4120#4121#0" expanded="true" />
-            <element signature="e#4148#4149#0" expanded="true" />
-            <element signature="e#4211#4212#0" expanded="true" />
-            <element signature="e#4239#4240#0" expanded="true" />
-            <element signature="e#4302#4303#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

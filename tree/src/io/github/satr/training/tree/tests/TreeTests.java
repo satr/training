@@ -1,14 +1,12 @@
 package io.github.satr.training.tree.tests;
 
 import io.github.satr.training.TreeHelper;
-import io.github.satr.training.datastructures.BTNodeEx;
 import io.github.satr.training.problems.TreeProblems;
+import io.github.satr.training.tests.TreeTestBase;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TreeTests {
-    private BTNodeEx n1,n2,n3,n4,n5,n6,n7,n8,n9;
-
+public class TreeTests extends TreeTestBase {
     /*
     *    2
     *  1 ^ 3
@@ -24,10 +22,10 @@ public class TreeTests {
         Assert.assertEquals("(n/1\\n)(1/3\\n)", treeAsText);
     }
     /*
-        *    2
-        *  1   3
-        *  ^
-        */
+    *    2
+    *  1   3
+    *  ^
+    */
     @Test
     public void deleteLeftLeafTest() throws Exception {
         n2().setRight(n3());
@@ -141,44 +139,4 @@ public class TreeTests {
         Assert.assertEquals("(n/2\\n)(2/4\\5)(n/5\\n)(4/7\\n)", treeAsText);
         TreeHelper.showTree(n7());
     }
-
-
-    //------------
-
-    public BTNodeEx n1() {
-        return n1 != null ? n1 : (n1 = new BTNodeEx(1));
-    }
-
-    public BTNodeEx n2() {
-        return n2 != null ? n2 : (n2 = new BTNodeEx(2));
-    }
-
-    public BTNodeEx n3() {
-        return n3 != null ? n3 : (n3 = new BTNodeEx(3));
-    }
-
-    public BTNodeEx n4() {
-        return n4 != null ? n4 : (n4 = new BTNodeEx(4));
-    }
-
-    public BTNodeEx n5() {
-        return n5 != null ? n5 : (n5 = new BTNodeEx(5));
-    }
-
-    public BTNodeEx n6() {
-        return n6 != null ? n6 : (n6 = new BTNodeEx(6));
-    }
-
-    public BTNodeEx n7() {
-        return n7 != null ? n7 : (n7 = new BTNodeEx(7));
-    }
-
-    public BTNodeEx n8() {
-        return n8 != null ? n8 : (n8 = new BTNodeEx(8));
-    }
-
-    public BTNodeEx n9() {
-        return n9 != null ? n9 : (n9 = new BTNodeEx(9));
-    }
-
 }
