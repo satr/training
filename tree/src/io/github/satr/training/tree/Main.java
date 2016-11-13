@@ -6,9 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 //        TreeProblems.testDSWTreeBalancing();//TODO - not completed work
-//        TreeProblems.convertSortedArrayToBalancedBST();
-//        TreeProblems.createLinkedListsForEachLevelOfBinaryTreeWithBreadthFirstTraversal();
-//        TreeProblems.createLinkedListsForEachLevelOfBinaryTreeWithPreOrderTraversal();
+        TreeProblems.convertSortedArrayToBalancedBST();
+        TreeProblems.createLinkedListsForEachLevelOfBinaryTreeWithBreadthFirstTraversal();
+        TreeProblems.createLinkedListsForEachLevelOfBinaryTreeWithPreOrderTraversal();
         TreeProblems.checkIfTreeIsBST();
+        System.out.println("Also run unit-tests.");
     }
 }

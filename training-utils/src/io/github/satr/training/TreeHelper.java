@@ -5,12 +5,8 @@ import io.github.satr.training.datastructures.BTNodeEx;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class TreeHelper {
-
-    private static Random random = new Random();
-    private static List<Integer> list = new ArrayList<>();
 
     public static void showTree(BTNodeEx root) {
         System.out.printf("Tree from the root %s\n", root);
@@ -98,34 +94,21 @@ public class TreeHelper {
     }
 
     public static BTNodeEx createTree(int levels) {
-        list = new ArrayList<>();
-        list.add(0);//exclude 0
-        int range = ((Double)(Math.pow(2, levels) * 2f)).intValue() + 10;
-        BTNodeEx root = new BTNodeEx(getRandomValue(range));
-        populateChildNodes(root, levels, range);
+        RandomValueGenerator valueGenerator = new RandomValueGenerator(levels);
+        BTNodeEx root = new BTNodeEx(valueGenerator.getNextValue());
+        populateChildNodes(root, levels, valueGenerator);
         return root;
     }
 
-    private static int getRandomValue(int range) {
-        for(;;) {
-            int value = random.nextInt(range);
-            if(!list.contains(value))
-            {
-                list.add(value);
-                return value;
-            }
-        }
-    }
-
-    private static void populateChildNodes(BTNodeEx node, int levels, int range) {
+    private static void populateChildNodes(BTNodeEx node, int levels, RandomValueGenerator valueGenerator) {
         if(levels <= 1)
             return;
-        BTNodeEx left = new BTNodeEx(getRandomValue(range));
+        BTNodeEx left = new BTNodeEx(valueGenerator.getNextValue());
         node.setLeft(left);
-        BTNodeEx right = new BTNodeEx(getRandomValue(range));
+        BTNodeEx right = new BTNodeEx(valueGenerator.getNextValue());
         node.setRight(right);
-        populateChildNodes(left, levels - 1, range);
-        populateChildNodes(right, levels - 1, range);
+        populateChildNodes(left, levels - 1, valueGenerator);
+        populateChildNodes(right, levels - 1, valueGenerator);
     }
 
     /*

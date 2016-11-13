@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec1a3d9-a647-402d-91a5-5dba67b1c0de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBTNodeEx.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTestCases.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/BinarySearchTreeTestCases.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/RandomValueGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTreeBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/training-utils.iml" afterPath="$PROJECT_DIR$/../training-utils/training-utils.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTree.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTestCases.java" afterPath="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTestCases.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java" afterPath="$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java" afterPath="$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java" />
     </list>
     <ignored path="tree-operations.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,53 +32,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinarySearchTreeTestCases.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/BinarySearchTreeTestCases.java">
+      <file leaf-file-name="AVLBinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-              <folding>
-                <element signature="e#159#165#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AVLBTNodeEx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBTNodeEx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AVLBinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeProblems.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeBalancingDayStoutWarren.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/algorithms/TreeBalancingDayStoutWarren.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="804">
+              <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+              <folding>
+                <element signature="e#3654#3655#0" expanded="true" />
+                <element signature="e#3681#3682#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -88,10 +90,70 @@
       <file leaf-file-name="AVLBinarySearchTreeTestCases.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="2159">
+              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-289">
+              <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomValueGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/RandomValueGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTreeTestCases.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/BinarySearchTreeTestCases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="90" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BTNodeEx.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+              <folding>
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1976#1977#0" expanded="true" />
+                <element signature="e#2045#2046#0" expanded="true" />
+                <element signature="e#2088#2089#0" expanded="true" />
+                <element signature="e#2150#2151#0" expanded="true" />
+                <element signature="e#2192#2193#0" expanded="true" />
+                <element signature="e#2254#2255#0" expanded="true" />
+                <element signature="e#2293#2294#0" expanded="true" />
+                <element signature="e#2355#2356#0" expanded="true" />
+                <element signature="e#2395#2396#0" expanded="true" />
+                <element signature="e#2457#2458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,23 +191,25 @@
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblemsTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/satr/training/tree/MainTest.java" />
         <option value="$PROJECT_DIR$/src/io/github/satr/training/tree/TreeTests.java" />
-        <option value="$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/HashTableEx.java" />
-        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/algorithms/AVLBST.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/algorithms/AVLBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBSTTest.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTests.java" />
-        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTestCases.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/algorithms/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/algorithms/BinarySearchTreeTestCases.java" />
-        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBTNodeEx.java" />
-        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/BinarySearchTreeTestCases.java" />
         <option value="$PROJECT_DIR$/src/io/github/satr/training/tree/tests/TreeTests.java" />
         <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTreeBase.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/BinarySearchTreeTestCases.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/RandomValueGenerator.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTestCases.java" />
+        <option value="$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java" />
       </list>
     </option>
   </component>
@@ -159,7 +223,7 @@
     <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1886" />
-    <option name="height" value="1003" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -186,9 +250,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -395,14 +459,15 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.satr.training" />
       <recent name="io.github.satr.training.datastructures" />
       <recent name="io.github.satr.training.problems" />
       <recent name="com.company" />
       <recent name="com.company.datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTreeTestCases">
-    <configuration default="false" name="BinarySearchTreeTestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="AVLBinarySearchTreeTestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="io.github.satr.training.tests.*" />
@@ -413,7 +478,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="io.github.satr.training.tests" />
-      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.BinarySearchTreeTestCases" />
+      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.AVLBinarySearchTreeTestCases" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -428,7 +493,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BinarySearchTreeTestCases.removeNodeWithRightTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AVLBinarySearchTreeTestCases.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="io.github.satr.training.tests.*" />
@@ -439,8 +504,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="io.github.satr.training.tests" />
-      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.BinarySearchTreeTestCases" />
-      <option name="METHOD_NAME" value="removeNodeWithRightTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.AVLBinarySearchTreeTestCases" />
+      <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -454,7 +519,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BinarySearchTreeTestCases.removeNodeWithOnlyRightTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AVLBinarySearchTreeTestCases.insertWithDoubleLeftRightRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="io.github.satr.training.tests.*" />
@@ -465,8 +530,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="io.github.satr.training.tests" />
-      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.BinarySearchTreeTestCases" />
-      <option name="METHOD_NAME" value="removeNodeWithOnlyRightTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.AVLBinarySearchTreeTestCases" />
+      <option name="METHOD_NAME" value="insertWithDoubleLeftRightRotationTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -480,7 +545,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BinarySearchTreeTestCases.removeNodeWithLeftTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AVLBinarySearchTreeTestCases.insertWithRightRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="io.github.satr.training.tests.*" />
@@ -491,8 +556,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="io.github.satr.training.tests" />
-      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.BinarySearchTreeTestCases" />
-      <option name="METHOD_NAME" value="removeNodeWithLeftTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.AVLBinarySearchTreeTestCases" />
+      <option name="METHOD_NAME" value="insertWithRightRotationTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -506,30 +571,24 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BinarySearchTreeTestCases.removeRootWithMinHavingRightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="io.github.satr.training.tests.*" />
+          <option name="PATTERN" value="io.github.satr.training.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="training-utils" />
+      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tree.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="io.github.satr.training.tests" />
-      <option name="MAIN_CLASS_NAME" value="io.github.satr.training.tests.BinarySearchTreeTestCases" />
-      <option name="METHOD_NAME" value="removeRootWithMinHavingRightTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="tree" />
       <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -947,19 +1006,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Tests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases.removeNodeWithRightTreeTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases.removeNodeWithOnlyRightTreeTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases.removeNodeWithLeftTreeTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases.removeRootWithMinHavingRightTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AVLBinarySearchTreeTestCases" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AVLBinarySearchTreeTestCases.Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AVLBinarySearchTreeTestCases.insertWithDoubleLeftRightRotationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AVLBinarySearchTreeTestCases.insertWithRightRotationTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases.removeRootWithMinHavingRightTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases.removeNodeWithLeftTreeTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases.removeNodeWithRightTreeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BinarySearchTreeTestCases.removeNodeWithOnlyRightTreeTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AVLBinarySearchTreeTestCases.Test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AVLBinarySearchTreeTestCases" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AVLBinarySearchTreeTestCases.insertWithRightRotationTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AVLBinarySearchTreeTestCases.insertWithDoubleLeftRightRotationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -987,44 +1046,45 @@
       <workItem from="1478934084732" duration="464000" />
       <workItem from="1478941478529" duration="144000" />
       <workItem from="1478949655916" duration="841000" />
-      <workItem from="1478968997057" duration="15048000" />
+      <workItem from="1478968997057" duration="23417000" />
+      <workItem from="1479066106532" duration="6073000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTestCases - 2016.11.13 at 13h 59m 46s.xml">
-      <configuration name="BinarySearchTreeTestCases" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases - 2016.11.13 at 22h 23m 52s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTestCases - 2016.11.13 at 14h 23m 47s.xml">
-      <configuration name="BinarySearchTreeTestCases" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases - 2016.11.13 at 22h 25m 34s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTestCases - 2016.11.13 at 14h 26m 09s.xml">
-      <configuration name="BinarySearchTreeTestCases" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases - 2016.11.13 at 22h 26m 08s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTestCases - 2016.11.13 at 14h 33m 48s.xml">
-      <configuration name="BinarySearchTreeTestCases" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases_Test - 2016.11.13 at 22h 26m 14s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTestCases_removeNodeWithLeftTreeTest - 2016.11.13 at 14h 06m 15s.xml">
-      <configuration name="BinarySearchTreeTestCases.removeNodeWithLeftTreeTest" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases_Test - 2016.11.13 at 22h 26m 26s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTestCases_removeNodeWithLeftTreeTest - 2016.11.13 at 14h 10m 02s.xml">
-      <configuration name="BinarySearchTreeTestCases.removeNodeWithLeftTreeTest" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases_Test - 2016.11.13 at 22h 26m 29s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTestCases_removeNodeWithLeftTreeTest - 2016.11.13 at 14h 10m 47s.xml">
-      <configuration name="BinarySearchTreeTestCases.removeNodeWithLeftTreeTest" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases_Test - 2016.11.13 at 22h 26m 32s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTestCases_removeRootWithMinHavingRightTest - 2016.11.13 at 14h 16m 43s.xml">
-      <configuration name="BinarySearchTreeTestCases.removeRootWithMinHavingRightTest" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases_insertWithRightRotationTest - 2016.11.13 at 22h 19m 02s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases.insertWithRightRotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTestCases_removeRootWithMinHavingRightTest - 2016.11.13 at 14h 20m 42s.xml">
-      <configuration name="BinarySearchTreeTestCases.removeRootWithMinHavingRightTest" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases_insertWithRightRotationTest - 2016.11.13 at 22h 21m 03s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases.insertWithRightRotationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2016.11.13 at 14h 21m 38s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="AVLBinarySearchTreeTestCases_insertWithRightRotationTest - 2016.11.13 at 22h 23m 44s.xml">
+      <configuration name="AVLBinarySearchTreeTestCases.insertWithRightRotationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49240000" />
+    <option name="totallyTimeSpent" value="63682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1036,28 +1096,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1886" height="1003" extended-state="0" />
+    <frame x="1280" y="23" width="1886" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747254" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24588364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30439562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28272828" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18132465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19489685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2327113" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30515915" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46593407" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1099,7 +1159,7 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1108,21 +1168,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/MatrixHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
@@ -1160,8 +1205,20 @@
         <state relative-caret-position="323">
           <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="11" />
           <folding>
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#407#408#0" expanded="false" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#2088#2089#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2254#2255#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1377,50 +1434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="130" column="53" selection-start-line="130" selection-start-column="53" selection-end-line="130" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="135" column="36" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/algorithms/TreeBalancingDayStoutWarren.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1437,37 +1450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBTNodeEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#863#864#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1475,7 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,6 +1468,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/TreeTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBTNodeEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="78" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTreeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/BinarySearchTreeTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="90" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/TreeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="97" column="47" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/RandomValueGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BTNodeEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+          <folding>
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#2088#2089#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2254#2255#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/AVLBinarySearchTreeTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/AVLBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1495,39 +1591,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/TreeTestBase.java">
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/algorithms/TreeBalancingDayStoutWarren.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="804">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+          <folding>
+            <element signature="e#3654#3655#0" expanded="true" />
+            <element signature="e#3681#3682#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/tests/BinarySearchTreeTestCases.java">
+    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/problems/TreeProblems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="371">
+          <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../training-utils/src/io/github/satr/training/datastructures/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/satr/training/tree/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding>
-            <element signature="e#159#165#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -39,7 +39,7 @@ public class BTNodeEx<TKey extends Comparable<TKey>> {
 
     @Override
     public String toString() {
-        return String.format("BTNodeEx{key=%s,data=%s}", key, data);
+        return String.format("BTNodeEx{key=%s,data=%s}%s", key, data, toText());
     }
 
     public String toText() {
@@ -50,7 +50,7 @@ public class BTNodeEx<TKey extends Comparable<TKey>> {
         this.parent = parent;
     }
 
-    public BTNodeEx getParent() {
+    public BTNodeEx<TKey> getParent() {
         return parent;
     }
 
@@ -72,5 +72,33 @@ public class BTNodeEx<TKey extends Comparable<TKey>> {
 
     public Object getData() {
         return data;
+    }
+
+    public int getHeight() {
+        return 1 + (getRightHeight() >= getLeftHeight() ?  getRightHeight() : getLeftHeight());
+    }
+
+    private int getRightHeight() {
+        return getRight() == null ? -1 : getRight().getHeight();
+    }
+
+    private int getLeftHeight() {
+        return getLeft() == null ? -1 : getLeft().getHeight();
+    }
+
+    public boolean isLeftOverWeighted() {
+        return getLeftHeight() - getRightHeight() >= 2;
+    }
+
+    public boolean isRightOverWeight() {
+        return getRightHeight() - getLeftHeight() >= 2;
+    }
+
+    public boolean isLeftWeighted() {
+        return getLeftHeight() - getRightHeight() >= 1;
+    }
+
+    public boolean isRightWeighted() {
+        return getRightHeight() - getLeftHeight() >= 1;
     }
 }
