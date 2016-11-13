@@ -12,11 +12,11 @@ public class TreeTests extends TreeTestBase {
     *  1 ^ 3
     */
     @Test
-    public void deleteRootWithLeftAndRightTest() throws Exception {
+    public void removeRootWithLeftAndRightTest() throws Exception {
         n2().setRight(n3());
         n2().setLeft(n1());
 
-        TreeProblems.delete(n2());
+        TreeProblems.remove(n2());
 
         String treeAsText = TreeHelper.toTextInOrderTraversal(n3());
         Assert.assertEquals("(n/1\\n)(1/3\\n)", treeAsText);
@@ -27,11 +27,11 @@ public class TreeTests extends TreeTestBase {
     *  ^
     */
     @Test
-    public void deleteLeftLeafTest() throws Exception {
+    public void removeLeftLeafTest() throws Exception {
         n2().setRight(n3());
         n2().setLeft(n1());
 
-        TreeProblems.delete(n1());
+        TreeProblems.remove(n1());
 
         String treeAsText = TreeHelper.toTextInOrderTraversal(n2());
         Assert.assertEquals("(n/2\\3)(n/3\\n)", treeAsText);
@@ -43,11 +43,11 @@ public class TreeTests extends TreeTestBase {
     *      ^
     */
     @Test
-    public void deleteRightLeafTest() throws Exception {
+    public void removeRightLeafTest() throws Exception {
         n2().setRight(n3());
         n2().setLeft(n1());
 
-        TreeProblems.delete(n3());
+        TreeProblems.remove(n3());
 
         String treeAsText = TreeHelper.toTextInOrderTraversal(n2());
         Assert.assertEquals("(n/1\\n)(1/2\\n)", treeAsText);
@@ -57,13 +57,12 @@ public class TreeTests extends TreeTestBase {
     /*
     *    2
     *  1 ^
-    *
     */
     @Test
-    public void deleteCurrentWithLeftOnlyTest() throws Exception {
+    public void removeCurrentWithLeftOnlyTest() throws Exception {
         n2().setLeft(n1());
 
-        TreeProblems.delete(n2());
+        TreeProblems.remove(n2());
 
         String treeAsText = TreeHelper.toTextInOrderTraversal(n1());
         Assert.assertEquals("(n/1\\n)", treeAsText);
@@ -75,10 +74,10 @@ public class TreeTests extends TreeTestBase {
     *  ^ 3
     */
     @Test
-    public void deleteCurrentWithRightOnlyTest() throws Exception {
+    public void removeCurrentWithRightOnlyTest() throws Exception {
         n2().setRight(n3());
 
-        TreeProblems.delete(n2());
+        TreeProblems.remove(n2());
 
         String treeAsText = TreeHelper.toTextInOrderTraversal(n3());
         Assert.assertEquals("(n/3\\n)", treeAsText);
@@ -91,12 +90,12 @@ public class TreeTests extends TreeTestBase {
     *  2 ^ 5
     */
     @Test
-    public void deleteCurrentWithLeftAndRightOnlyTest() throws Exception {
+    public void removeCurrentWithLeftAndRightOnlyTest() throws Exception {
         n6().setLeft(n4());
         n4().setLeft(n2());
         n4().setRight(n5());
 
-        TreeProblems.delete(n4());
+        TreeProblems.remove(n4());
 
         String treeAsText = TreeHelper.toTextInOrderTraversal(n6());
         Assert.assertEquals("(n/2\\n)(2/5\\n)(5/6\\n)", treeAsText);
@@ -109,12 +108,12 @@ public class TreeTests extends TreeTestBase {
     *  2   5
     */
     @Test
-    public void deleteCurrentWithSubTreeTest() throws Exception {
+    public void removeCurrentWithSubTreeTest() throws Exception {
         n6().setLeft(n4());
         n4().setLeft(n2());
         n4().setRight(n5());
 
-        TreeProblems.delete(n6());
+        TreeProblems.remove(n6());
 
         String treeAsText = TreeHelper.toTextInOrderTraversal(n4());
         Assert.assertEquals("(n/2\\n)(2/4\\5)(n/5\\n)", treeAsText);
@@ -127,13 +126,13 @@ public class TreeTests extends TreeTestBase {
     *  2  5   ^
     */
     @Test
-    public void deleteCurrentWithSubTreeOnAnotherSideOfRootTest() throws Exception {
+    public void removeCurrentWithSubTreeOnAnotherSideOfRootTest() throws Exception {
         n6().setRight(n7());
         n6().setLeft(n4());
         n4().setLeft(n2());
         n4().setRight(n5());
 
-        TreeProblems.delete(n6());
+        TreeProblems.remove(n6());
 
         String treeAsText = TreeHelper.toTextInOrderTraversal(n7());
         Assert.assertEquals("(n/2\\n)(2/4\\5)(n/5\\n)(4/7\\n)", treeAsText);

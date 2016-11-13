@@ -1,6 +1,6 @@
 package io.github.satr.training.datastructures;
 
-public class BTNodeEx<TKey> {
+public class BTNodeEx<TKey extends Comparable<TKey>> {
     BTNodeEx[] nodes = new BTNodeEx[2];
     private int leftNodeIndex = 0;
     private int rightNodeIndex = 1;

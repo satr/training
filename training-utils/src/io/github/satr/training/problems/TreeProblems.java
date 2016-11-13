@@ -154,7 +154,7 @@ public class TreeProblems {
         return true;
     }
 
-    public static void delete(BTNodeEx node) {
+    public static void remove(BTNodeEx node) {
         if(node.leftIsLeaf())
             deleteLeaf(node);
         else if(node.rightIsEmpty() && !node.leftIsEmpty() )
