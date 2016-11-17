@@ -120,8 +120,8 @@ public class AVLBinarySearchTreeTestCases {
     }
 
     @Test
-    public void Test() throws Exception {
-        RandomValueGenerator valueGenerator = new RandomValueGenerator(3);
+    public void exampleOfRandomlyGeneratedAVLTreeTest() throws Exception {
+        RandomValueGenerator valueGenerator = new RandomValueGenerator(4);
         for (int i = 0; i < valueGenerator.getRange() / 2; i++)
             tree.insert(valueGenerator.getNextValue());
 
